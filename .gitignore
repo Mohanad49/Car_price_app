@@ -92,3 +92,5 @@ cython_debug/
 
 # Streamlit cache
 .streamlit/secrets.toml
+
+.DS_Store

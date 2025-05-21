@@ -7,8 +7,7 @@ A modern web application that predicts the price of used cars based on various s
 ## Features
 
 - **Price Prediction**: Get estimated market prices for used cars based on various specifications
-- **Multiple Currency Support**: View predictions in USD, EUR, GBP, JPY, CAD, or AUD
-- **Light/Dark Mode**: Choose between light and dark themes for better user experience
+- **Multiple Currency Support**: View predictions in USD, EUR, GBP, JPY, CAD, AUD, or EGP
 - **Modern UI**: Sleek design with animations, transitions, and responsive layout
 - **Interactive Elements**: User-friendly input controls and visual feedback
 
