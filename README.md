@@ -2,7 +2,13 @@
 
 A modern web application that predicts the price of used cars based on various specifications, built with Streamlit.
 
+## 🚀 Live Demo
+
+Try it now: [carpricegenie.streamlit.app](https://carpricegenie.streamlit.app)
+
 ![App Screenshot](https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3)
+
+---
 
 ## Features
 
@@ -11,7 +17,11 @@ A modern web application that predicts the price of used cars based on various s
 - **Modern UI**: Sleek design with animations, transitions, and responsive layout
 - **Interactive Elements**: User-friendly input controls and visual feedback
 
-## Installation
+---
+
+## Optional: Local Installation
+
+If you want to run the app locally, follow these steps:
 
 1. Clone this repository:
    ```
@@ -30,18 +40,14 @@ A modern web application that predicts the price of used cars based on various s
    pip install -r requirements.txt
    ```
 
-## Usage
-
-1. Run the Streamlit app:
+4. Run the Streamlit app:
    ```
    streamlit run app.py
    ```
 
-2. Open your web browser and navigate to the URL displayed in the terminal (typically http://localhost:8501)
+5. Open your web browser and navigate to the URL displayed in the terminal (typically http://localhost:8501)
 
-3. Enter the specifications of the used car you want to price
-
-4. Click "Predict Price" to get the estimated market value
+---
 
 ## Model Details
 
@@ -54,6 +60,8 @@ The prediction model is a Random Forest regressor trained on US used car data. T
 - Vehicle condition (accidents, frame damage, etc.)
 - And more...
 
+---
+
 ## Requirements
 
 - Python 3.8+
@@ -61,7 +69,7 @@ The prediction model is a Random Forest regressor trained on US used car data. T
 - pandas 2.2.3+
 - numpy 1.26.4+
 - joblib 1.4.2+
-- scikit-learn 1.2.2+
+- scikit-learn 1.6.1+
 - requests 2.32.3+
 
 ## License
