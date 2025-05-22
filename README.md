@@ -1,4 +1,4 @@
-# 🚗 US Used Car Price Predictor
+# 🚗 Used Car Price Predictor
 
 A modern web application that predicts the price of used cars based on various specifications, built with Streamlit.
 
