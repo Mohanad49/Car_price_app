@@ -8,7 +8,7 @@ import json
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="US Used Car Price Predictor",
+    page_title="Used Car Price Predictor",
     page_icon="🚗",
     layout="wide"
 )
@@ -304,7 +304,7 @@ with st.expander("How it works"):
 # Custom CSS for the title area with a semi-transparent backdrop
 st.markdown("""
 <div style="background-color: rgba(0,0,0,0.6); padding: 20px; border-radius: 10px; margin-bottom: 20px; backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);">
-    <h1 style="text-align: center; color: white !important; margin: 0;">🚗 US Used Car Price Predictor</h1>
+    <h1 style="text-align: center; color: white !important; margin: 0;">🚗 Used Car Price Predictor</h1>
 </div>
 """, unsafe_allow_html=True)
 
