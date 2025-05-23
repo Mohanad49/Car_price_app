@@ -6,6 +6,18 @@ import requests
 from datetime import datetime
 import json
 
+from huggingface_hub import hf_hub_download
+import os
+
+def download_from_hf():
+    repo_id = "mohanad49/car-price-model"
+    files = ["rf_model.joblib", "preprocessor.joblib", "original_feature_columns.joblib"]
+    for file in files:
+       if not os.path.exists(file):
+           hf_hub_download(repo_id=repo_id, filename=file, local_dir=".", local_dir_use_symlinks=False)
+           
+download_from_hf()
+   
 # --- Page Configuration ---
 st.set_page_config(
     page_title="Used Car Price Predictor",
