@@ -10,7 +10,7 @@ from huggingface_hub import hf_hub_download
 import os
 
 def download_from_hf():
-    repo_id = "mohanad49/car-price-model"
+    repo_id = "Mohanad49/Car_price_model"
     files = ["rf_model.joblib", "preprocessor.joblib", "original_feature_columns.joblib"]
     for file in files:
        if not os.path.exists(file):
